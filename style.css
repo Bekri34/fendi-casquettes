@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.produits {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.produit {
+    background-color: #fff;
+    padding: 15px;
+    margin: 0 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.produit img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.panier {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+}
+
+.total {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.commencer {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+.commencer:hover {
+    background-color: #555;
+}
+
